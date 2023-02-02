@@ -1,0 +1,46 @@
+.card{
+    .img-area{
+        height: 200px;
+        img{
+            height: 100%;
+        }
+    }
+}
+
+
+.price-area{
+    display: flex;
+    align-items: center;
+
+    .priceZone{
+        font-size: 35px;
+        margin-left: 10px;
+        font-weight: bold;
+        color: red;
+    }
+}
+table{
+    border: 1px solid rgb(87, 71, 67);
+    width: 100%;
+    margin-top: 20px;
+
+    .design{
+        text-align: center;
+    }
+
+    th{
+        border: 1px solid rgb(97, 18, 2);
+        height: 30px;
+        
+    }
+
+    td{
+        border: 1px solid rgb(97, 18, 2);;
+        height: 100px;
+        text-align: center;
+        &:first-child{
+            width: 150px;
+            height: 150px;
+        }
+    }
+}
